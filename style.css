@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    height: 30vh;
+}
+
+.main-page {
+    width: 100%;
+    background-color: #E6E9ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-page-content {
+    width: 50%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    background-color: #E6E9ED;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin: 10px;
+}
+
+.button {
+    padding: 10px;
+}
+
+
+.titel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E6E9ED;
+}
+
+.wrapper-werkervaring {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-werkervaring {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.wrapper-opleiding {
+    width: 100%;
+    background-color: #E6E9ED;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-opleiding {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.wrapper-vaardigheden {
+    width: 100%;
+    background-color: #E6E9ED;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-vaardigheden {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.test {
+    background-color: #E6E9ED;
+}
+
+img {
+    border-radius: 50px;
+}
+
+
+
+.subtekst {
+    color: lightgray;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+/* progress bar (via bootstrap) */
+.progress {
+    margin-top: 5px;
+}
